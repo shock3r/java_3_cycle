@@ -1,10 +1,6 @@
 package by.epam.cycle.task3;
 
-import java.util.Scanner;
-
 public class Main {
-	
-	
 	
 	public static void main(String[] args) {
 		
@@ -12,8 +8,14 @@ public class Main {
 		 * 3. Найти сумму квадратов первых ста чисел.:
 		 */
 		
-				
-				
+		int sum = 0;
+		
+		for (int i=0; i<=100; i++) {
+			sum+=Math.pow(i, 2);
+		}
+		
+		System.out.println("sum of squares of the first 100 numbers is: " + sum);
+					
 	}
 
 }
