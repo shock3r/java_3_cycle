@@ -86,14 +86,9 @@ public class Main {
 		
 		//1) get scan for m and n interval
 		Main prog = new Main();
-		prog.getIntervalNaturalNumbers();
-		
-		int m = prog.m;
-		int n = prog.n;
-				
+		prog.getIntervalNaturalNumbers();		
 		//2) run cycle to get natural number
 		//3) run procedyre to get all divider of this number
-		
 		prog.getDividerForNumbersFromInterval();
 		
 	}				
